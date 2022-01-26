@@ -16,6 +16,6 @@ public class MediaLib
   {
     String info = "";
     
-    return info;
+    return book;
   }
 }

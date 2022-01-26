@@ -9,6 +9,8 @@ public class MediaLibRunner
   {
     System.out.println("Welcome to your Media Library");
     MediaLib myLib = new MediaLib();
-
+    Book myBook = new Book("Lord of the Rings", "Tolkien");
+    System.out.println(myBook);
+    myLib.addBook(myBook);
   }
 }
