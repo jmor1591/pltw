@@ -14,7 +14,7 @@ public class RemoveDoubleSpace
     String output = "";
     
     /* Your Code Here */
-    for (int i = 0; i < input.length() &&  i; i++) {
+    for (int i = 0; i < input.length(); i++) {
         if (!(input.substring(i, i + 2).equals("  "))) {
           output += input.substring(i, i + 1);
         }
